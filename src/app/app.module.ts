@@ -16,6 +16,7 @@ import { UtilityComponent } from './utility/utility.component';
 import { TeamComponent } from './team/team.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { from } from 'rxjs';
+import { Test1Component } from './test1/test1.component';
 
 
 
@@ -29,7 +30,8 @@ import { from } from 'rxjs';
     HomeComponent,
     UtilityComponent,
     TeamComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    Test1Component
   ],
   imports: [
     BrowserModule,
